@@ -28,7 +28,7 @@ public class ArabicReshaper {
 
 
 	
-	//{Arabic Char, CasexMask, Not Connected Shap, No-Left Shape, No-Right Shape, Middle Shape}
+	//{Arabic Char, CasexMask, Original Shap, Right-No-Left Shape, Left-No-Right Shape, Middle Shape}
     private static final char allchar[][] = {
         {0x0621, 0x0007, 0xFE80, 0xFE80, 0xFE80, 0xFE80}, 
         {0x0622, 0x0806, 0xFE81, 0xFE82, 0xFEF5, 0xFEF6}, 
